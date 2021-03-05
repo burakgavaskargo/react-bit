@@ -1,0 +1,37 @@
+export default [{
+  id: 1,
+  name: 'Tom',
+  surname: 'Begley',
+  age: 23,
+  avatar: 'https://randomuser.me/api/portraits/men/9.jpg',
+}, {
+  id: 2,
+  name: 'Harriett',
+  surname: 'Wilson',
+  age: 25,
+  avatar: 'https://randomuser.me/api/portraits/women/78.jpg',
+}, {
+  id: 3,
+  name: 'Mira',
+  surname: 'Corso',
+  age: 28,
+  avatar: 'https://randomuser.me/api/portraits/women/21.jpg',
+}, {
+  id: 4,
+  name: 'Colin',
+  surname: 'Brown',
+  age: 33,
+  avatar: 'https://randomuser.me/api/portraits/men/7.jpg',
+}, {
+  id: 5,
+  name: 'Sandra',
+  surname: 'Renaud',
+  age: 42,
+  avatar: 'https://randomuser.me/api/portraits/women/95.jpg',
+}, {
+  id: 6,
+  name: 'Yolanda',
+  surname: 'Gautier',
+  age: 22,
+  avatar: 'https://randomuser.me/api/portraits/women/26.jpg',
+}];

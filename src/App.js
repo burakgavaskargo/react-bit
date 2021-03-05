@@ -1,23 +1,30 @@
-import logo from './logo.svg';
+import { useState } from 'react';
+import { Grid } from '@material-ui/core';
+import SearchComponent from '@bit/burakgavas.react-tutorial.search-component';
+import PersonCard from '@bit/burakgavas.react-tutorial.person-card';
 import './App.css';
+import data from './data';
 
 function App() {
+  const [personData, setPersonData] = useState(data);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div style={{ flexGrow: 1, backgroundColor: '#efefef', height: '100%' }}>
+      <div style={{ padding: '20px' }}>
+        <SearchComponent data={data} onFinish={setPersonData} />
+        
+        {/* Lower container */}
+        <Grid container spacing={3} style={{ marginTop: '20px' }}>
+          {/* Data cards */}
+          {
+            personData.map(person =>
+              <Grid key={person.id} item xs={4}>
+                <PersonCard person={person} />
+              </Grid>
+            )
+          }
+        </Grid>
+      </div>
     </div>
   );
 }
