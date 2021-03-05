@@ -3,8 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@bit/burakgavas.react-tutorial.person-card": "file:./components/person-card",
-    "@bit/burakgavas.react-tutorial.search-component": "file:./components/search-component",
+    "@bit/burakgavas.react-tutorial.person-card": "^0.0.10",
+    "@bit/burakgavas.react-tutorial.search-component": "^0.0.13",
     "@material-ui/core": "^4.11.3",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",

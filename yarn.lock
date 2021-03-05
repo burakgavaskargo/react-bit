@@ -1143,14 +1143,18 @@
   resolved "https://registry.yarnpkg.com/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@bit/burakgavas.react-tutorial.person-card@file:./components/person-card":
+"@bit/burakgavas.react-tutorial.person-card@^0.0.10":
   version "0.0.10"
+  resolved "https://node.bit.dev/burakgavas.react-tutorial.person-card/-/burakgavas.react-tutorial.person-card-0.0.10.tgz#b3f37b723b2e72ef3a228cab38695a4249b533ad"
+  integrity sha1-s/N7cjsucu86IoyrOGlaQkm1M60=
   dependencies:
     "@material-ui/core" "^4.11.3"
     "@material-ui/lab" "^4.0.0-alpha.57"
 
-"@bit/burakgavas.react-tutorial.search-component@file:./components/search-component":
+"@bit/burakgavas.react-tutorial.search-component@^0.0.13":
   version "0.0.13"
+  resolved "https://node.bit.dev/burakgavas.react-tutorial.search-component/-/burakgavas.react-tutorial.search-component-0.0.13.tgz#c87876a3506b148e21d2c6614494af0bb8fa0793"
+  integrity sha1-yHh2o1BrFI4h0sZhRJSvC7j6B5M=
   dependencies:
     "@bit/burakgavas.react-tutorial.search-input" "0.0.12"
     "@bit/burakgavas.react-tutorial.submit-button" "0.0.11"
