@@ -9,12 +9,12 @@ function App() {
   const [personData, setPersonData] = useState(data);
 
   return (
-    <div style={{ flexGrow: 1, backgroundColor: '#efefef', height: '100%' }}>
-      <div style={{ padding: '20px' }}>
+    <div className='app'>
+      <div className='app-container'>
         <SearchComponent data={data} onFinish={setPersonData} />
         
         {/* Lower container */}
-        <Grid container spacing={3} style={{ marginTop: '20px' }}>
+        <Grid className='app-lower-container' container spacing={3}>
           {/* Data cards */}
           {
             personData.map(person =>
